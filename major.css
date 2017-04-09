@@ -1,0 +1,677 @@
+@charset "utf-8";
+
+body {
+	background-color: #f3e5d8;
+	text-align: left;
+	background: url(assets/foot.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+#cat {
+	float: left;
+	margin-left: 60px;
+	display: block;
+	position: relative;
+	top: 10px;
+	
+				
+}
+h1 {
+	text-align: center;
+	vertical-align: middle;
+	padding: 70px;
+	color: #000000;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-style: normal;
+	font-weight: bold;
+	background-color: #d9b38c;
+	font-size: 55px;
+	margin-top: 7px;
+
+	
+}
+
+
+#dog {
+	float: right;
+	margin-right: 60px;
+	clear: right;
+	display: block;
+	position: relative;
+	top: 10px;
+}
+
+#nav {
+	background-color: #4d3319;
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	height: 60px;
+	margin-top: -25px;
+}
+
+#nav a {
+	color: #FFFFFF;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+	line-height: 60px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	position: relative;
+	margin-left: 65px;
+	margin-right: 65px;
+	
+	
+}
+#nav a:hover {
+	background-color: #d9b38c;
+	color: #4d3319;
+	font-weight: bold;
+}
+
+h2 {
+	text-align: center;
+	font-weight: bold;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 35px;
+}
+#Tabs1 #tabs-1 #rox {
+	width: 377px;
+	height: 500px;
+	float: left;
+	padding-right: 25px;
+	clear: left;
+}
+h3 {
+	font-size: 25px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+#Tabs1 #tabs-1 #ted {
+	width: 560px;
+	height: 425px;
+	float: left;
+	padding-right: 25px;
+	clear: left;
+}
+
+#Tabs1 #tabs-1 #fiona {
+	width: 560px;
+	height: 425px;
+	float: left;
+	padding-right: 25px;
+	clear: left;
+}
+
+#Tabs1 #tabs-1 #abby {
+	width: 754px;
+	height: 500px;
+	float: left;
+	padding-right: 25px;
+
+}
+
+footer {
+	text-align: center;
+	font-weight: bold;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #4D3319;
+	color: #FFFFFF;
+}
+
+#Tabs1 #tabs-2 #bob {
+	width: 560px;
+	height: 425px;
+	float: left;
+	padding-right: 25px;
+	clear: left;
+}
+
+
+#Tabs1 #tabs-2 #henry {
+	width: 560px;
+	height: 425px;
+	float: left;
+	padding-right: 25px;
+	clear: left;
+}
+
+
+#Tabs1 #tabs-2 #nash {
+	width: 560px;
+	height: 425px;
+	float: left;
+	padding-right: 25px;
+	clear: left;
+}
+
+#Tabs1 #tabs-2 #oscar {
+	width: 377px;
+	height: 500px;
+	float: left;
+	padding-right: 25px;
+	clear: left;
+}
+
+#Tabs1 #tabs-2 #jack {
+	width: 377px;
+	height: 500px;
+	float: left;
+	padding-right: 25px;
+	clear: left;
+}
+
+#Tabs1 #tabs-3 #jeff {
+	width: 377px;
+	height: 500px;
+	float: left;
+	padding-right: 25px;
+	clear: left;
+}
+#Tabs1 #tabs-3 #harriet {
+	width: 560px;
+	height: 425px;
+	float: left;
+	padding-right: 25px;
+	clear: left;
+}
+#Tabs1 #tabs-3 #kyle {
+	width: 560px;
+	height: 425px;
+	float: left;
+	padding-right: 25px;
+	clear: left;
+}
+#Tabs1 #tabs-3 #grace {
+	width: 560px;
+	height: 425px;
+	float: left;
+	padding-right: 25px;
+	clear: left;
+}
+
+#Tabs1 #tabs-3 #buddy {
+	width: 560px;
+	height: 425px;
+	float: left;
+	padding-right: 25px;
+	clear: left;
+}
+
+
+#cat1 {
+	text-align: center;
+	font-size: 20px;
+	width: 100px;
+	color: #000000;
+	background-color: #DCFFBA;
+}
+#dog1 {
+	font-size: 20px;
+	text-align: center;
+	width: 100px;
+	color: #000000;
+	background-color: #FFFFA7;
+}
+#small1 {
+	width: 165px;
+	text-align: center;
+	font-size: 20px;
+	color: #000000;
+	background-color: #E0CD9E;
+}
+#Tabs1 #tabs-3 {
+	background-color: #E0CD9E;
+}
+
+
+
+#Tabs1 #tabs-2 {
+	background-color: #FFFFA7;
+}
+
+#Tabs1 #tabs-1 {
+	background-color: #DCFFBA;
+	color: #000000;
+}
+
+
+.table-header.ui-helper-clearfix.ui-widget-header #cattab #cat1 {
+	background-color: #DCFFBA;
+}
+.table-header.ui-helper-clearfix.ui-widget-header #dogtag #dog1 {
+	background-color: #FFFFA7;
+}
+.table-header.ui-helper-clearfix.ui-widget-header #smtag #small1 {
+	background-color: #E0CD9E;
+}
+
+
+body table {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 30px;
+	margin-top: 60px;
+	border: 2px solid #000000;
+	border-collapse: collapse;
+	background-color: #D9B38C;
+}
+td {
+	border: 1px solid #000000;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	font-size: 36px;
+	height: 40px;
+}
+th {
+	border: 1px solid #000000;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	font-size: 65px;
+}
+.table-header   {
+	font-size: 45px;
+	background-color: #4D3319;
+	color: #FFFFFF;
+	width: 350px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+table-header-2 {
+	color: #A71719;
+}
+#cattab {
+	background-color: #DCFFBA;
+	color: #DCFFBA;
+}
+
+.side {
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	font-size: 36px;
+}
+form {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	width: 400px;
+	height: 700px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border: 1px solid #000000;
+	font-size: 18px;
+	text-align: left;
+	margin-left: 190px;
+	background-color: #D9B38C;
+	float: left;
+}
+#address {
+	margin-left: 46px;
+}
+#phone  {
+	margin-left: 20px;
+}
+#email {
+	margin-left: 62px;
+}
+#email2 {
+	margin-left: 80px;
+}
+#family {
+	margin-left: 5px;
+}
+#id {
+	margin-left: 10px;
+}
+#animal {
+	margin-left: 56px;
+}
+h4 {
+	padding-left: 5px;
+	margin-bottom: -5px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 50px;
+	margin-left: 210px;
+	text-align: left;
+}
+h5 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 50px;
+	text-align: center;
+}
+#us {
+	margin-bottom: -2px;
+	text-align: center;
+}
+
+
+.terms {
+	margin-left: 30px;
+	padding-left: 610px;
+	margin-top: -127px;
+	margin-right: 50px;
+	text-align: left;
+	width: 500px;
+}
+#title {
+	text-align: center;
+}
+hterm {
+	text-align: center;
+
+}
+#contact {
+	width: 450px;
+	height: 620px;
+	margin-top: 25px;
+	background-color: #D9B38C;
+	margin-left: 195px;
+	border: 1px solid #4D3319;
+}
+#bbutton {
+	margin-left: 95px;
+}
+#bbutton2 {
+	margin-left: 200px;
+}
+#bbutton3 {
+	margin-left: 195px;
+}
+
+#bbutton4 {
+	margin-left: 295px;
+}
+#gbutton {
+	margin-left: 195px;
+}
+#ybutton {
+	margin-left: 195px;
+}
+#ybutton3 {
+	margin-left: 195px;
+}
+#ybutton4 {
+	margin-left: 195px;
+}
+#ybutton5 {
+	margin-left: 195px;
+}
+#gbutton2 {
+	margin-left: 100px;
+}
+#ybutton2 {
+	margin-left: 100px;
+}
+#gbutton3 {
+	margin-left: 95px;
+}
+#gbutton4 {
+	margin-left: 195px;
+}
+#gbutton5 {
+	margin-left: 195px;
+}
+#frank {
+	background-color: #336600;
+	width: 560px;
+	color: #FFFFFF;
+	padding-left: 2px;
+}
+#hen {
+	background-color: #336600;
+	width: 560px;
+	color: #FFFFFF;
+	padding-left: 2px;
+}
+#harr {
+	background-color: #FFFFA7;
+	width: 560px;
+	color: #000000;
+	padding-left: 2px;
+}
+#budd {
+	background-color: #FFFFA7;
+	width: 560px;
+	color: #000000;
+	padding-left: 2px;
+}
+#gra {
+	background-color: #FFFFA7;
+	width: 560px;
+	color: #000000;
+	padding-left: 2px;
+}
+#ky {
+	background-color: #FFFFA7;
+	width: 560px;
+	color: #000000;
+	padding-left: 2px;
+}
+#tedd {
+	background-color: #614E1F;
+	width: 560px;
+	color: #FFFFFF;
+	padding-left: 2px;
+}
+#fion {
+	background-color: #614E1F;
+	width: 560px;
+	color: #FFFFFF;
+	padding-left: 2px;
+}
+#kat {
+	background-color: #614E1F;
+	width: 750px;
+	color: #FFFFFF;
+	padding-left: 2px;
+}
+#os {
+	background-color: #336600;
+	width: 377px;
+	color: #FFFFFF;
+	padding-left: 2px;
+}
+#ja {
+	width: 377px;
+	background-color: #336600;
+	color: #FFFFFF;
+	padding-left: 2px;
+}
+#jeffer {
+	width: 377px;
+	background-color: #FFFFA7;
+	color: #000000;
+	padding-left: 2px;
+}
+#roxx {
+	width: 377px;
+	background-color: #614E1F;
+	color: #FFFFFF;
+	padding-left: 2px;
+}
+#na {
+	width: 560px;
+	background-color: #336600;
+	color: #FFFFFF;
+	padding-left: 2px;
+}
+#add {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	margin-left: 125px;
+	font-size: 20px;
+}
+#add1 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	margin-left: 125px;
+}
+#add2 {
+	margin-left: 70px;
+}
+#video1 {
+	width: 340px;
+	height: 340px;
+	margin-left: 55px;
+}
+#catv {
+	background-color: #D9B38C;
+	width: 450px;
+	height: 620px;
+	position: absolute;
+	left: 695px;
+	top: 312px;
+	border: 1px solid #4D3319;
+}
+#submit {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	font-size: 25pt;
+	background-color: #4D3319;
+	color: #FFFFFF;
+	margin-left: 125px;
+}
+#subscribe {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	font-size: 20px;
+	background-color: #4D3319;
+	color: #FFFFFF;
+	margin-left: 145px;
+}
+#reset {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	font-size: 25pt;
+	background-color: #4D3319;
+	color: #FFFFFF;
+	margin-left: 125px;
+}
+#hterm2 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	margin-left: 20px;
+	margin-right: 0px;
+}
+#money {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	margin-left: 45px;
+	font-size: 20pt;
+	text-decoration: underline;
+}
+#time {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	margin-left: 45px;
+	font-size: 20pt;
+	text-decoration: underline;
+}
+#items {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	margin-left: 45px;
+	font-size: 20pt;
+	text-decoration: underline;
+}
+#need2 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	margin-left: 45px;
+	font-size: 35px;
+	text-decoration: underline;
+	text-align: center;
+}
+#help {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	width: 950px;
+	margin-left: 195px;
+}
+#help #p1 {
+	margin-left: 45px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 15pt;
+}
+#help #p2 {
+	margin-left: 45px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 15pt;
+}
+#help #p3 {
+	margin-left: 45px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 15pt;
+}
+#treat  {
+	margin-left: 420px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 30px;
+	vertical-align: middle;
+	font-weight: bold;
+	width: 950px;
+}
+#treat2  {
+	margin-left: 300px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 30px;
+	vertical-align: middle;
+	font-weight: bold;
+	width: 950px;
+}
+#main {
+	width: 950px;
+	margin-left: 195px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 22px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#mainvideo {
+	width: 950px;
+	margin-left: 195px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 22px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#mainimg5 {
+	margin-left: 150px;
+
+}
+#mainimg6 {
+	margin-left: 150px;
+
+}
+#mainimg2 {
+	margin-left: 150px;
+}
+#mainimg4 {
+	margin-left: 275px;
+}
+#mainimg1 {
+	margin-left: 275px;
+}
+#mainimg3 {
+	margin-left: 150px;
+}
+#mainvideo #mainv {
+	margin-left: 200px;
+	border: 10px solid #8B6224;
+}
